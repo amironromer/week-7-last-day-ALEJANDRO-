@@ -3,10 +3,10 @@ def min_max():
   print("min and max")
   # Quickly check the minimum or maximum of a list with these functions.
   
-  # mylist = [10,20,30,40,100]
-  # min(mylist)
+  mylist = [10,20,30,40,100]
+  # print(min(mylist))
   # 10
-  # max(mylist)
+  # print(max(mylist))
   # 100
   
   #################################################min/max######################################
@@ -14,17 +14,21 @@ def min_max():
   # Min & Max Practice #1
   # Get the maximum value among the values in the following list, and store it in a variable named maximum_value:
   
-  # number_list = [44542247/2, 21310/5, 2134747*33, 44556475, 121676, 6654067, 353254, 123134, 55**12, 611**5]
-  
-  
+number_list= [44542247/2, 21310/5, 2134747*33, 44556475, 121676, 6654067, 353254, 123134, 55**12, 611**5]
+maximum_value=max(number_list)
+print(maximum_value)
+
   
   
   # Min & Max Practice #2
   # Calculate the difference between the maximum and minimum value in the following list of numbers, and store it in a variable called number_range:
   
-  # number_list = [44542247, 21310, 2134747, 44556475, 121676, 6654067, 353254, 123134, 552512, 611665]
-  
-  
+number_list = [44542247, 21310, 2134747, 44556475, 121676, 6654067, 353254, 123134, 552512, 611665]
+MAX=max(number_list)
+MIN=min(number_list)
+number_range=MAX-MIN
+print(number_range)
+
   # Min & Max Practice #3
   # Using max(), min(), and dictionary methods, get the minimum value from the following dictionary:
   
